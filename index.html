@@ -1,14 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Landing Page</title>
-<link rel="stylesheet" href="style.css">
+<title>My Website</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+}
+
+/* Navbar */
+nav {
+    background: black;
+    padding: 15px;
+}
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main section */
+.container {
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #333;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Button */
+button {
+    padding: 12px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Image */
+img {
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+</style>
+
 </head>
+
 <body>
 
-<h1>Welcome to My Website</h1>
-<p>This is my first landing page</p>
-<button>Click Me</button>
+<!-- Navbar -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="temp.html">Converter</a>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+
+<h1>Welcome to My Website 🚀</h1>
+
+<p>This is my first beautiful landing page</p>
+
+<button onclick="alert('Welcome to my project!')">Click Me</button>
+
+<br>
+
+<img src="https://via.placeholder.com/250">
+
+</div>
 
 </body>
 </html>

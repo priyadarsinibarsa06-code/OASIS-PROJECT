@@ -2,25 +2,36 @@
 <html>
 <head>
 <title>Temperature Converter</title>
+
 <style>
 body {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
+    font-family: Arial;
+    background: #e3f2fd;
 }
-input {
+
+input, button {
     padding: 10px;
+    margin: 10px;
 }
+
 button {
-    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
 </style>
+
 </head>
 <body>
 
-<h1>Temperature Converter</h1>
+<h1>Temperature Converter 🌡️</h1>
 
 <input type="number" id="temp" placeholder="Enter Celsius">
-<br><br>
+
+<br>
 
 <button onclick="convert()">Convert</button>
 

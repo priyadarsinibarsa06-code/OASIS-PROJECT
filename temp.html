@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Temperature Converter</title>
+<style>
+body {
+    text-align: center;
+    margin-top: 50px;
+}
+input {
+    padding: 10px;
+}
+button {
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h1>Temperature Converter</h1>
+
+<input type="number" id="temp" placeholder="Enter Celsius">
+<br><br>
+
+<button onclick="convert()">Convert</button>
+
+<p id="result"></p>
+
+<script>
+function convert() {
+    let c = document.getElementById("temp").value;
+    let f = (c * 9/5) + 32;
+    document.getElementById("result").innerText = f + " °F";
+}
+</script>
+
+</body>
+</html>
